@@ -1,2 +1,5 @@
-package tech.nicecraftz.common;public class AreaPlusAPI {
+package tech.nicecraftz.common;
+
+public class AreaPlusAPI {
+
 }
