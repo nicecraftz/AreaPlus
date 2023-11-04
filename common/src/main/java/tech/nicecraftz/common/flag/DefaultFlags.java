@@ -1,5 +1,5 @@
 package tech.nicecraftz.common.flag;
 
-public enum DefaultFlags {
+public class DefaultFlags {
     // NON SO SE USARE UN ENUM OPPURE UNA CLASSE
 }

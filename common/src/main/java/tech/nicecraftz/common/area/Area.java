@@ -6,7 +6,7 @@ import java.security.InvalidParameterException;
 import java.util.Map;
 import java.util.UUID;
 
-public interface Area {
+public sealed interface Area permits AreaImpl {
     Map<Flag<?>, Object> getFlags();
 
     <T> T getFlag(Flag<T> flag);
@@ -26,7 +26,7 @@ public interface Area {
         private String name;
         private BoundingBox boundingBox;
         private boolean isEnabled = true;
-        private int priority = -1;
+        private AreaPriority priority = AreaPriority.NULL;
 
         public Builder setWorldUUID(UUID worldUUID) {
             this.worldUUID = worldUUID;
@@ -48,8 +48,8 @@ public interface Area {
             return this;
         }
 
-        public Builder setPriority(int priority) {
-            this.priority = priority;
+        public Builder setPriority(AreaPriority areaPriority) {
+            this.priority = areaPriority;
             return this;
         }
 
@@ -62,7 +62,7 @@ public interface Area {
                 throw new InvalidParameterException("All params of the Area must be set in order to build it!");
             }
 
-            if(priority < 0 || priority > 4) {
+            if(priority == AreaPriority.NULL) {
                 throw new InvalidParameterException("Area priority must be between 0 and 4 in order to build it!");
             }
 

@@ -3,6 +3,7 @@ package tech.nicecraftz.spigot.manager;
 import com.google.common.collect.Sets;
 import org.bukkit.Location;
 import tech.nicecraftz.common.area.Area;
+import tech.nicecraftz.common.area.AreaPriority;
 import tech.nicecraftz.common.area.BoundingBox;
 import tech.nicecraftz.common.area.Point;
 
@@ -63,7 +64,7 @@ public class AreaManager {
             .setName(name.toLowerCase())
             .setBoundingBox(new BoundingBox(startPoint, endPoint))
             .setEnabled(true)
-            .setPriority(4)
+            .setPriority(AreaPriority.HIGHEST)
             .build();
 
         loadedAreas.add(area);

@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.UUID;
 
 @Getter
-class AreaImpl implements Area {
+final class AreaImpl implements Area {
     private final UUID worldUUID;
     private final String name;
     private final BoundingBox boundingBox;
@@ -17,23 +17,23 @@ class AreaImpl implements Area {
     @Setter
     private boolean isEnabled;
     @Setter
-    public int priority;
+    public AreaPriority priority;
 
     /*
         creates new Area object with some default parameters such as: isEnabled and priority
      */
-    protected AreaImpl(UUID worldUUID, String name, BoundingBox boundingBox) {
+    AreaImpl(UUID worldUUID, String name, BoundingBox boundingBox) {
         this.worldUUID = worldUUID;
         this.name = name;
         this.boundingBox = boundingBox;
         this.isEnabled = true;
-        this.priority = 0;
+        this.priority = AreaPriority.LOWEST;
     }
 
     /*
         creates new Area object with all parameters specified by its Builder
      */
-    protected AreaImpl(UUID worldUUID, String name, BoundingBox boundingBox, boolean isEnabled, int priority) {
+    AreaImpl(UUID worldUUID, String name, BoundingBox boundingBox, boolean isEnabled, AreaPriority priority) {
         this.worldUUID = worldUUID;
         this.name = name;
         this.boundingBox = boundingBox;
@@ -65,4 +65,5 @@ class AreaImpl implements Area {
             }
         }
     }
+
 }
