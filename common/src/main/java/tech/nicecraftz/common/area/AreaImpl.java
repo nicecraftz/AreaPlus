@@ -3,6 +3,7 @@ package tech.nicecraftz.common.area;
 import lombok.Getter;
 import lombok.Setter;
 import tech.nicecraftz.common.flag.Flag;
+import tech.nicecraftz.common.location.BoundingBox;
 
 import java.util.HashMap;
 import java.util.Map;

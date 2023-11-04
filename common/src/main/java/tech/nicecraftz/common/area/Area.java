@@ -1,6 +1,7 @@
 package tech.nicecraftz.common.area;
 
 import tech.nicecraftz.common.flag.Flag;
+import tech.nicecraftz.common.location.BoundingBox;
 
 import java.security.InvalidParameterException;
 import java.util.Map;

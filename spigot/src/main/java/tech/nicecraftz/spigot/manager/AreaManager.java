@@ -4,8 +4,8 @@ import com.google.common.collect.Sets;
 import org.bukkit.Location;
 import tech.nicecraftz.common.area.Area;
 import tech.nicecraftz.common.area.AreaPriority;
-import tech.nicecraftz.common.area.BoundingBox;
-import tech.nicecraftz.common.area.Point;
+import tech.nicecraftz.common.location.BoundingBox;
+import tech.nicecraftz.common.location.Point;
 
 import java.util.Optional;
 import java.util.Set;

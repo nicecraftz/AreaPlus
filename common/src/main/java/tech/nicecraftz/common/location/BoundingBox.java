@@ -1,4 +1,4 @@
-package tech.nicecraftz.common.area;
+package tech.nicecraftz.common.location;
 
 import java.util.ArrayList;
 import java.util.List;
