@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2dbe365-594c-4851-8f93-ef1d34b4f91d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spigot/AreaPlus.spigot.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/tech/nicecraftz/common/AreaPlusAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/tech/nicecraftz/common/AreaPlusAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/tech/nicecraftz/common/area/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/tech/nicecraftz/common/area/Area.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/tech/nicecraftz/common/area/BoundingBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/tech/nicecraftz/common/area/BoundingBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spigot/src/main/java/tech/nicecraftz/spigot/manager/AreaManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/spigot/src/main/java/tech/nicecraftz/spigot/manager/AreaManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/tech/nicecraftz/common/area/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/tech/nicecraftz/common/area/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
