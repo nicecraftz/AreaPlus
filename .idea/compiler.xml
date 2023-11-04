@@ -11,13 +11,6 @@
         <module name="AreaPlus.spigot.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="18">
-      <module name="common" target="18" />
-      <module name="common.main" target="18" />
-      <module name="common.test" target="18" />
-      <module name="spigot" target="18" />
-      <module name="spigot.main" target="18" />
-      <module name="spigot.test" target="18" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="16" />
   </component>
 </project>
